@@ -37,7 +37,7 @@ for td in tds:
       scraperwiki.sqlite.save(["td"], record) # save the records one by one
     except:
       record = {"td" : "No ENTRY" }
-      scrapewiki.sqlite.save(["td"],record)
+      scraperwiki.sqlite.save(["td"],record)
     
 # -----------------------------------------------------------------------------
 # Go back to the Tutorials page and continue to Tutorial 3 to learn about 
